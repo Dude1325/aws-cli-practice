@@ -4,6 +4,8 @@
 		{
 			"Sid": "AllowS3OnlyForPractice",
 			"Effect": "Allow",
-			"Action": "S3ListBucket",
-			"Ressource": "*"
+			"Action": "s3:ListBucket",
+			"Resource": "*"
+		}
+	]
 }
